@@ -90,7 +90,6 @@ const IndexPage = ({ data }) => {
         </div>
         <div class="ui language floating dropdown link item" id="languages">
           <i class="world icon"></i>
-          <div class="text">English</div>
           <div class="menu inverted">
             <div class="header">Search Languages</div>
             <div class="ui icon search input">
