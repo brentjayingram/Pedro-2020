@@ -1,5 +1,6 @@
 import React from "react"
-import Logo from "@images/pedro-images/pedro-logo.png"
+import Logo from "../images/pedro-images/Pedro-Logo.png"
+
 
 import SEO from "@components/seo"
 
