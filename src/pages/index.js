@@ -64,18 +64,20 @@ const IndexPage = ({ data }) => {
              
              
               <div class="seven wide column" style={{backgroundColor: "white", height: '100vh'}}>
-                <div class="center aligned row " >
-                  <a class="ui header" href="/introduction/integrations"><h2>ABOUT</h2></a>
-                  <br/>
-                  <a class="ui header" href="/introduction/integrations"><h2>BRAVE WRK PODCAST</h2></a>
-                  <br/>
-                  <a class="ui header" href="/introduction/integrations"><h2>THE MIDDLE SEAT BOOK</h2></a>
-                  <br/>
-                  <a class="ui header" href="/introduction/integrations"><h2>REST | LA CHURCH</h2></a>
-                  <br/>
-                  <a class="ui header" href="/introduction/integrations"><h2>CONTACT</h2></a>
-                </div>
-
+                <div >
+                
+                    <div class="container" style={{display: "flex", justifyContent: "center", flexDirection: "column"}} >
+                      <a class="ui header" href="/introduction/integrations"><h2>ABOUT</h2></a>
+                      <br/>
+                      <a class="ui header" href="/introduction/integrations"><h2>BRAVE WRK PODCAST</h2></a>
+                      <br/>
+                      <a class="ui header" href="/introduction/integrations"><h2>THE MIDDLE SEAT BOOK</h2></a>
+                      <br/>
+                      <a class="ui header" href="/introduction/integrations"><h2>REST | LA CHURCH</h2></a>
+                      <br/>
+                      <a class="ui header" href="/introduction/integrations"><h2>CONTACT</h2></a>
+                    </div>
+                  </div>
               </div>
             </div>
       </div>
