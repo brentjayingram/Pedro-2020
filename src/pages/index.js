@@ -5,6 +5,7 @@ import { StaticQuery, graphql } from "gatsby"
 import "./index.css"
 
 import Pedro from "@images/pedro-images/pedro-hero.png"
+import Logo from "../images/pedro-images/Pedro-Logo.png"
 
 const IndexPage = ({ data }) => {
   const title = "Pedro LaTorre"
@@ -59,6 +60,11 @@ const IndexPage = ({ data }) => {
                 </div>
              */}
              <div class="nine wide column">
+             <div style={{marginLeft: 20}}>
+              <a href="/" >
+                <img class="ui small image"  src={Logo}/>
+              </a>
+             </div>
              <img class="ui centered image"  src={Pedro} style={{height: '100vh'}}/>
              </div>
              
