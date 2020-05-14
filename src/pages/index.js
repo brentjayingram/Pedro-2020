@@ -2,7 +2,7 @@ import React from "react"
 import Helmet from "react-helmet"
 import { StaticQuery, graphql } from "gatsby"
 
-import "./index.css"
+// import "./index.css"
 
 import Pedro from "@images/pedro-images/pedro-hero.png"
 import Logo from "../images/pedro-images/Pedro-Logo.png"
@@ -52,14 +52,14 @@ const IndexPage = ({ data }) => {
     >
       <html lang="en" />
     </Helmet>
-    <div class="ui two column stackable grid " style={{height: '100vh', width: '100vw'}}>
-            <div class="ui raised yellow row">
+    <div class="ui two column stackable grid " >
+            <div class="ui row" style={{height: '100vh', width: '100vw'}}>
                 {/* <div class="nine wide right floated column">
                 <img class="ui centered medium image" src={Pedro} />
                 
                 </div>
              */}
-             <div class="nine wide column">
+             <div class="nine wide yellow  column">
              <div style={{marginLeft: 20}}>
               <a href="/" >
                 <img class="ui small image"  src={Logo}/>
@@ -69,7 +69,7 @@ const IndexPage = ({ data }) => {
              </div>
              
              
-              <div class="seven wide column" style={{backgroundColor: "white", height: '100vh'}}>
+              <div class=" seven wide computer only column" style={{backgroundColor: "white"}}>
                 <div >
                 
                     <div class="container" style={{display: "flex", justifyContent: "center", flexDirection: "column", height: '100vh'}} >
