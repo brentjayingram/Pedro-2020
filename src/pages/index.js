@@ -67,15 +67,15 @@ const IndexPage = ({ data }) => {
                 <div >
                 
                     <div class="container" style={{display: "flex", justifyContent: "center", flexDirection: "column"}} >
-                      <a class="ui header" href="/introduction/integrations"><h2>ABOUT</h2></a>
+                      <a class="ui header" href="/about"><h2>ABOUT</h2></a>
                       <br/>
-                      <a class="ui header" href="/introduction/integrations"><h2>BRAVE WRK PODCAST</h2></a>
+                      <a class="ui header" href="https://open.spotify.com/show/58aiwkfmjJD6VvRDzCy2fN?si=AzFkVju9Svi35-Gy5Ysj1w"><h2>BRAVE WRK PODCAST</h2></a>
                       <br/>
-                      <a class="ui header" href="/introduction/integrations"><h2>THE MIDDLE SEAT BOOK</h2></a>
+                      <a class="ui header" href="https://www.amazon.com/Middle-Seat-Craving-Platforms-Loving/dp/1483572986"><h2>THE MIDDLE SEAT BOOK</h2></a>
                       <br/>
-                      <a class="ui header" href="/introduction/integrations"><h2>REST | LA CHURCH</h2></a>
+                      <a class="ui header" href="https://restla.org/"><h2>REST | LA CHURCH</h2></a>
                       <br/>
-                      <a class="ui header" href="/introduction/integrations"><h2>CONTACT</h2></a>
+                      <a class="ui header" href="/contact"><h2>CONTACT</h2></a>
                     </div>
                   </div>
               </div>
