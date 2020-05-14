@@ -69,10 +69,10 @@ const IndexPage = ({ data }) => {
              </div>
              
              
-              <div class=" seven wide computer only column" style={{backgroundColor: "white"}}>
+              <div class=" computer only seven wide column" style={{backgroundColor: "white"}}>
                 <div >
                 
-                    <div class="container" style={{display: "flex", justifyContent: "center", flexDirection: "column", height: '100vh'}} >
+                    <div class=" container" style={{display: "flex", justifyContent: "center", flexDirection: "column", height: '100vh' }} >
                       <a class="ui header" href="/about"><h2>ABOUT</h2></a>
                       <br/>
                       <a class="ui header" href="https://open.spotify.com/show/58aiwkfmjJD6VvRDzCy2fN?si=AzFkVju9Svi35-Gy5Ysj1w"><h2>BRAVE WRK PODCAST</h2></a>
@@ -85,6 +85,17 @@ const IndexPage = ({ data }) => {
                     </div>
                   </div>
               </div>
+              <div class="mobile only column" style={{display: "flex", justifyContent: "start", flexDirection: "column", height: '50vh'}}>
+                      <a class="ui header" href="/about"><h2>ABOUT</h2></a>
+                      <br/>
+                      <a class="ui header" href="https://open.spotify.com/show/58aiwkfmjJD6VvRDzCy2fN?si=AzFkVju9Svi35-Gy5Ysj1w"><h2>BRAVE WRK PODCAST</h2></a>
+                      <br/>
+                      <a class="ui header" href="https://www.amazon.com/Middle-Seat-Craving-Platforms-Loving/dp/1483572986"><h2>THE MIDDLE SEAT BOOK</h2></a>
+                      <br/>
+                      <a class="ui header" href="https://restla.org/"><h2>REST | LA CHURCH</h2></a>
+                      <br/>
+                      <a class="ui header" href="/contact"><h2>CONTACT</h2></a>              
+                  </div>
             </div>
       </div>
 
