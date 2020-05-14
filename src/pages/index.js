@@ -66,7 +66,7 @@ const IndexPage = ({ data }) => {
               <div class="seven wide column" style={{backgroundColor: "white", height: '100vh'}}>
                 <div >
                 
-                    <div class="container" style={{display: "flex", justifyContent: "center", flexDirection: "column"}} >
+                    <div class="container" style={{display: "flex", justifyContent: "center", flexDirection: "column", height: '100vh'}} >
                       <a class="ui header" href="/about"><h2>ABOUT</h2></a>
                       <br/>
                       <a class="ui header" href="https://open.spotify.com/show/58aiwkfmjJD6VvRDzCy2fN?si=AzFkVju9Svi35-Gy5Ysj1w"><h2>BRAVE WRK PODCAST</h2></a>
