@@ -122,7 +122,7 @@ const IndexPage = ({ data }) => {
       <div class="tablet only ui two column stackable grid " >
             <div class="ui row" style={{height: '100vh', width: '100vw'}}>
                
-             <div class=" blue column" style={{height: '100vvh', marginTop: "-2rem"}}>
+             <div class=" yellow column" style={{height: '100vvh', marginTop: "-2rem"}}>
              <div style={{marginLeft: 20}}>
               <a href="/" >
                 <img class="ui small image"  src={Logo}/>
