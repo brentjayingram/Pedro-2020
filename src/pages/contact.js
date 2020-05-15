@@ -17,7 +17,7 @@ const Contact= () => (
                 <div class="column ten wide">
                     <div class="ui raised segment">
                         <h1>CONTACT</h1>
-                        <form name= "contact" data-netlify="true" class="ui form" style={{textAlign: "left"}}>
+                        <form name= "contact" data-netlify="true" method="post" class="ui form" style={{textAlign: "left"}}>
                             <div class="field">
                                 <label>First Name</label>
                                 <input type="text" name="first-name" placeholder="First Name"/>
