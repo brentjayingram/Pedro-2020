@@ -17,7 +17,7 @@ const Contact= () => (
                 <div class="column ten wide">
                     <div class="ui raised segment">
                         <h1>CONTACT</h1>
-                        <form class="ui form" style={{textAlign: "left"}}>
+                        <form name= "contact" data-netlify="true" data-netlify-recaptcha="true" class="ui form" style={{textAlign: "left"}}>
                             <div class="field">
                                 <label>First Name</label>
                                 <input type="text" name="first-name" placeholder="First Name"/>
@@ -28,15 +28,15 @@ const Contact= () => (
                             </div>
                             <div class="field">
                                 <label>Message</label>
-                                <textarea></textarea>
+                                <textarea name="message" placeholder="Type Message Here"></textarea>
                             </div>
                             <div class="field">
                                 <div class="ui checkbox">
-                                    <input type="checkbox" tabindex="0" class="hidden"/>
                                     <label>I agree to the Terms and Conditions</label>
                                  </div>
+                                 <div data-netlify-recaptcha="true"></div>
                             </div>
-                            <button class="ui button primary" type="submit">Submit</button>
+                            <button class="ui button primary" type="submit">Send Message</button>
                     </form>
                     </div>
                 </div>
