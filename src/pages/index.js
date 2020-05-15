@@ -52,20 +52,22 @@ const IndexPage = ({ data }) => {
     >
       <html lang="en" />
     </Helmet>
-    <div class="ui two column stackable grid " >
+    {/* Mobile only */}
+    <div class="mobile only ui two column stackable grid " >
             <div class="ui row" style={{height: '100vh', width: '100vw'}}>
                 {/* <div class="nine wide right floated column">
                 <img class="ui centered medium image" src={Pedro} />
                 
                 </div>
              */}
-             <div class="nine wide yellow column" style={{height: '100vvh'}}>
+             <div class="nine wide yellow column" style={{height: '100vvh', marginTop: "-2rem"}}>
              <div style={{marginLeft: 20}}>
               <a href="/" >
                 <img class="ui small image"  src={Logo}/>
               </a>
              </div>
-             <img class="ui centered bordered raised image"  src={Pedro} style={{height: '100vh'}}/>
+             
+             <img class="ui centered bordered raised image"  src={Pedro} style={{ width: '100vw'}}/>
              </div>
              
              
@@ -98,7 +100,39 @@ const IndexPage = ({ data }) => {
                   </div>
             </div>
       </div>
-
+      {/* Computer size */}
+      <div class="computer only ui two column grid" style={{height: '100vh'}} >
+            <div class="ui row" style={{height: '100vh', width: '100vw'}}>
+               
+             <div class="nine wide yellow column" style={{height: '100vvh', marginTop: "-2rem"}}>
+             <div style={{marginLeft: 20}}>
+              <a href="/" >
+                <img class="ui small image"  src={Logo}/>
+              </a>
+             </div>
+             
+             <img class="ui centered bordered raised image"  src={Pedro} style={{ height: '100vh'}}/>
+             </div>
+             
+             
+              <div class="computer only seven wide column" style={{backgroundColor: "white"}}>
+                <div >
+                
+                    <div class=" container" style={{display: "flex", justifyContent: "center", flexDirection: "column", height: '100vh' }} >
+                      <a class="ui header" href="/about"><h2>ABOUT</h2></a>
+                      <br/>
+                      <a class="ui header" href="https://open.spotify.com/show/58aiwkfmjJD6VvRDzCy2fN?si=AzFkVju9Svi35-Gy5Ysj1w"><h2>BRAVE WRK PODCAST</h2></a>
+                      <br/>
+                      <a class="ui header" href="https://www.amazon.com/Middle-Seat-Craving-Platforms-Loving/dp/1483572986"><h2>THE MIDDLE SEAT BOOK</h2></a>
+                      <br/>
+                      <a class="ui header" href="https://restla.org/"><h2>REST | LA CHURCH</h2></a>
+                      <br/>
+                      <a class="ui header" href="/contact"><h2>CONTACT</h2></a>
+                    </div>
+                  </div>
+              </div>
+            </div>
+      </div>
 
   </div>
     )} 
