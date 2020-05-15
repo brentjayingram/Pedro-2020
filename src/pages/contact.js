@@ -30,12 +30,8 @@ const Contact= () => (
                                 <label>Message</label>
                                 <textarea name="message" placeholder="Type Message Here"></textarea>
                             </div>
-                            <div class="field">
-                                <div class="ui checkbox">
-                                    <label>I agree to the Terms and Conditions</label>
-                                 </div>
-                                 <div data-netlify-recaptcha="true"></div>
-                            </div>
+                            <div data-netlify-recaptcha="true"></div>
+
                             <button class="ui button primary" type="submit">Send Message</button>
                     </form>
                     </div>
