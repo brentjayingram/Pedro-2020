@@ -59,17 +59,17 @@ const IndexPage = ({ data }) => {
                 
                 </div>
              */}
-             <div class="nine wide yellow  column">
+             <div class="nine wide yellow column" style={{height: '100vvh'}}>
              <div style={{marginLeft: 20}}>
               <a href="/" >
                 <img class="ui small image"  src={Logo}/>
               </a>
              </div>
-             <img class="ui centered image"  src={Pedro} style={{height: '100vh'}}/>
+             <img class="ui centered bordered raised image"  src={Pedro} style={{height: '100vh'}}/>
              </div>
              
              
-              <div class=" computer only seven wide column" style={{backgroundColor: "white"}}>
+              <div class=" tablet only seven wide column" style={{backgroundColor: "white"}}>
                 <div >
                 
                     <div class=" container" style={{display: "flex", justifyContent: "center", flexDirection: "column", height: '100vh' }} >
@@ -85,7 +85,7 @@ const IndexPage = ({ data }) => {
                     </div>
                   </div>
               </div>
-              <div class="mobile only column" style={{display: "flex", justifyContent: "start", flexDirection: "column", height: '50vh'}}>
+              <div class="mobile only column" style={{display: "flex", justifyContent: "start", flexDirection: "column", height: '50vh', backgroundColor: "white"}}>
                       <a class="ui header" href="/about"><h2>ABOUT</h2></a>
                       <br/>
                       <a class="ui header" href="https://open.spotify.com/show/58aiwkfmjJD6VvRDzCy2fN?si=AzFkVju9Svi35-Gy5Ysj1w"><h2>BRAVE WRK PODCAST</h2></a>
