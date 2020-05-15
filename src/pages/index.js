@@ -71,22 +71,7 @@ const IndexPage = ({ data }) => {
              </div>
              
              
-              <div class=" tablet only seven wide column" style={{backgroundColor: "white"}}>
-                <div >
-                
-                    <div class=" container" style={{display: "flex", justifyContent: "center", flexDirection: "column", height: '100vh' }} >
-                      <a class="ui header" href="/about"><h2>ABOUT</h2></a>
-                      <br/>
-                      <a class="ui header" href="https://open.spotify.com/show/58aiwkfmjJD6VvRDzCy2fN?si=AzFkVju9Svi35-Gy5Ysj1w"><h2>BRAVE WRK PODCAST</h2></a>
-                      <br/>
-                      <a class="ui header" href="https://www.amazon.com/Middle-Seat-Craving-Platforms-Loving/dp/1483572986"><h2>THE MIDDLE SEAT BOOK</h2></a>
-                      <br/>
-                      <a class="ui header" href="https://restla.org/"><h2>REST | LA CHURCH</h2></a>
-                      <br/>
-                      <a class="ui header" href="/contact"><h2>CONTACT</h2></a>
-                    </div>
-                  </div>
-              </div>
+
               <div class="mobile only column" style={{display: "flex", justifyContent: "start", flexDirection: "column", height: '50vh', backgroundColor: "white"}}>
                       <a class="ui header" href="/about"><h2>ABOUT</h2></a>
                       <br/>
@@ -131,6 +116,40 @@ const IndexPage = ({ data }) => {
                     </div>
                   </div>
               </div>
+            </div>
+      </div>
+      {/* tablet size */}
+      <div class="tablet only ui two column stackable grid " >
+            <div class="ui row" style={{height: '100vh', width: '100vw'}}>
+               
+             <div class=" blue column" style={{height: '100vvh', marginTop: "-2rem"}}>
+             <div style={{marginLeft: 20}}>
+              <a href="/" >
+                <img class="ui small image"  src={Logo}/>
+              </a>
+             </div>
+             
+             <img class="ui centered bordered raised image"  src={Pedro} style={{ width: '100vw'}}/>
+             </div>
+             
+             
+              <div class=" tablet only seven wide column" style={{backgroundColor: "white"}}>
+                <div >
+                
+                    <div class=" container" style={{display: "flex", justifyContent: "center", flexDirection: "column", height: '100vh' }} >
+                      <a class="ui header" href="/about"><h2>ABOUT</h2></a>
+                      <br/>
+                      <a class="ui header" href="https://open.spotify.com/show/58aiwkfmjJD6VvRDzCy2fN?si=AzFkVju9Svi35-Gy5Ysj1w"><h2>BRAVE WRK PODCAST</h2></a>
+                      <br/>
+                      <a class="ui header" href="https://www.amazon.com/Middle-Seat-Craving-Platforms-Loving/dp/1483572986"><h2>THE MIDDLE SEAT BOOK</h2></a>
+                      <br/>
+                      <a class="ui header" href="https://restla.org/"><h2>REST | LA CHURCH</h2></a>
+                      <br/>
+                      <a class="ui header" href="/contact"><h2>CONTACT</h2></a>
+                    </div>
+                  </div>
+              </div>
+              
             </div>
       </div>
 
