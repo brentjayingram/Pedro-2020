@@ -3,6 +3,7 @@ import Logo from "../images/pedro-images/Pedro-Logo.png"
 
 
 import SEO from "@components/seo"
+import TransitionLink from "gatsby-plugin-transition-link"
 
 const Contact= () => (
     <div  style={{  backgroundColor: "#FBBD08", height: "100vh",  verticalAlign: "middle" }}>

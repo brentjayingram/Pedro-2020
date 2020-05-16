@@ -1,6 +1,8 @@
 import React from "react"
 import Helmet from "react-helmet"
 import { StaticQuery, graphql } from "gatsby"
+import TransitionLink from "gatsby-plugin-transition-link"
+import AniLink from "gatsby-plugin-transition-link/AniLink"
 
 // import "./index.css"
 
@@ -104,7 +106,9 @@ const IndexPage = ({ data }) => {
                 <div >
                 
                     <div class=" container" style={{display: "flex", justifyContent: "center", flexDirection: "column", height: '100vh' }} >
-                      <a class="ui header" href="/about"><h2>ABOUT</h2></a>
+                      <AniLink cover to="/about" bg="#FBBD08">
+                        <h2 class="ui header">ABOUT</h2>
+                      </AniLink>
                       <br/>
                       <a class="ui header" href="https://open.spotify.com/show/58aiwkfmjJD6VvRDzCy2fN?si=AzFkVju9Svi35-Gy5Ysj1w"><h2>BRAVE WRK PODCAST</h2></a>
                       <br/>
@@ -112,8 +116,11 @@ const IndexPage = ({ data }) => {
                       <br/>
                       <a class="ui header" href="https://restla.org/"><h2>REST | LA CHURCH</h2></a>
                       <br/>
-                      <a class="ui header" href="/contact"><h2>CONTACT</h2></a>
-                    </div>
+                      <br/>
+                      <AniLink cover to="/contact">
+                        <h2 class="ui header">CONTACT</h2>
+                      </AniLink>                    
+                      </div>
                   </div>
               </div>
             </div>
