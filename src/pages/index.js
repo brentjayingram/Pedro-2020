@@ -117,9 +117,9 @@ const IndexPage = ({ data }) => {
                       <a class="ui header" href="https://restla.org/"><h2>REST | LA CHURCH</h2></a>
                       <br/>
                       <br/>
-                      <AniLink cover to="/contact">
+                      <AniLink cover to="/contact" bg="#FBBD08">
                         <h2 class="ui header">CONTACT</h2>
-                      </AniLink>                    
+                      </AniLink>                
                       </div>
                   </div>
               </div>
