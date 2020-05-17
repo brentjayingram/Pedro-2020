@@ -1,18 +1,18 @@
 import React from "react"
 import Logo from "../images/pedro-images/Pedro-Logo.png"
+import AniLink from "gatsby-plugin-transition-link/AniLink"
 
 
 import SEO from "@components/seo"
-import TransitionLink from "gatsby-plugin-transition-link"
 
 const About= () => (
     <div  style={{  backgroundColor: "#FBBD08", height: "100vh",  verticalAlign: "middle" }}>
         <div style={{marginLeft: 20}}>
-            <a href="/" >
+            <AniLink cover to="/" direction="right" bg="#FBBD08">
                 <img class="ui small image"  src={Logo}/>
-            </a>
+            </AniLink>
         </div>
-        
+
         <SEO title="About Pedro" />
             <div class="ui one column stackable center aligned page grid" >
                 <div class="column twelve wide">
