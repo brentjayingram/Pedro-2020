@@ -9,7 +9,7 @@ import Pedro from "@images/pedro-images/pedro-hero.png"
 import Logo from "../images/pedro-images/Pedro-Logo.png"
 
 const IndexPage = ({ data }) => {
-  const title = "Pedro LaTorre"
+  const title = "Home"
 
   return (
   <StaticQuery

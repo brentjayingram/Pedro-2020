@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Semantic UI Documentation`,
-    description: `The style guide and component library for Semantic UI`,
+    title: `Pedro LaTorre`,
+    description: `Speaker, Author, Strategist`,
     author: `@whoisryosuke`,
     sidebar: {
       pages: [
@@ -140,7 +140,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/pedro-images/pl.jpg`, // This path is relative to the root of the site.
       },
     },
     `gatsby-plugin-mdx`,
