@@ -78,7 +78,7 @@ const IndexPage = ({ data }) => {
                         <h2 class="ui header">ABOUT</h2>
                       </AniLink>
                       <br/>
-                      <a class="ui header" href="https://open.spotify.com/show/58aiwkfmjJD6VvRDzCy2fN?si=AzFkVju9Svi35-Gy5Ysj1w"><h2>BRAVE WRK PODCAST</h2></a>
+                      <a class="ui header" href="https://www.bravewrk.com/"><h2>BRAVE WRK</h2></a>
                       <br/>
                       <a class="ui header" href="https://www.amazon.com/Middle-Seat-Craving-Platforms-Loving/dp/1483572986"><h2>THE MIDDLE SEAT BOOK</h2></a>
                       <br/>
@@ -113,7 +113,7 @@ const IndexPage = ({ data }) => {
                         <h2 class="ui header">ABOUT</h2>
                       </AniLink>
                       <br/>
-                      <a class="ui header" href="https://open.spotify.com/show/58aiwkfmjJD6VvRDzCy2fN?si=AzFkVju9Svi35-Gy5Ysj1w"><h2>BRAVE WRK PODCAST</h2></a>
+                      <a class="ui header" href="https://www.bravewrk.com/"><h2>BRAVE WRK</h2></a>
                       <br/>
                       <a class="ui header" href="https://www.amazon.com/Middle-Seat-Craving-Platforms-Loving/dp/1483572986"><h2>THE MIDDLE SEAT BOOK</h2></a>
                       <br/>
@@ -149,7 +149,7 @@ const IndexPage = ({ data }) => {
                     <div class=" container" style={{display: "flex", justifyContent: "center", flexDirection: "column", height: '100vh' }} >
                       <a class="ui header" href="/about"><h2>ABOUT</h2></a>
                       <br/>
-                      <a class="ui header" href="https://open.spotify.com/show/58aiwkfmjJD6VvRDzCy2fN?si=AzFkVju9Svi35-Gy5Ysj1w"><h2>BRAVE WRK PODCAST</h2></a>
+                      <a class="ui header" href="https://www.bravewrk.com/"><h2>BRAVE WRK</h2></a>
                       <br/>
                       <a class="ui header" href="https://www.amazon.com/Middle-Seat-Craving-Platforms-Loving/dp/1483572986"><h2>THE MIDDLE SEAT BOOK</h2></a>
                       <br/>
