@@ -19,6 +19,8 @@ const Contact= () => (
                     <div class="ui raised segment">
                         <h1>CONTACT</h1>
                         <form name= "contact" method="POST" action="/success"  data-netlify="true" class="ui form" style={{textAlign: "left"}}>
+                                        <input type="hidden" name="form-name" value="contact" />
+
                             <div class="field">
                                 <label>First Name</label>
                                 <input type="text" name="first-name" placeholder="First Name"/>
@@ -36,6 +38,7 @@ const Contact= () => (
                     </div>
                 </div>
             </div>    
+              
     </div>
 
 )
