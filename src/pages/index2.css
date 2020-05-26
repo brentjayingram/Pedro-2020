@@ -5,13 +5,23 @@
 
 }
 #leftbox {
-    border-style: dotted;
+    /* border-style: dotted; */
     flex-grow: 1.4;
 }
-
+#imageContainer {
+    display: flex;
+    /* border-style: dashed; */
+    align-items: center;
+}
+#pedro {
+    max-width: 500px !important;
+    border-style: solid !important;
+    border-color: white !important;
+    border-width: thin;
+}
 #rightbox {
     display: flex;
-    border-style: dashed;
+    /* border-style: dashed; */
     background-color: white;
     flex-grow: 1;
     align-items: center;
@@ -19,6 +29,6 @@
 }
 
 #menu {   
-     border-style:dashed;
+     /* border-style:dashed; */
      margin-left: 2rem;
 }

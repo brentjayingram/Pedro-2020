@@ -63,9 +63,9 @@ const IndexPage = ({ data }) => {
               <img class="ui small image"  src={Logo}/>
             </a>
           </div>
-
-          <img id="pedro" class="ui centered bordered raised large image"  src={Pedro} />
-
+          < div id="imageContainer">
+            <img id="pedro" class="ui centered fluid image"  src={Pedro} />
+          </div>
         </div>
         <div id="rightbox">
           
