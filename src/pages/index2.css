@@ -1,3 +1,5 @@
+@media screen and (min-width: 600px) {
+   
 .mainbody {
     display: flex;
     height: 100vh ;
@@ -31,4 +33,30 @@
 #menu {   
      /* border-style:dashed; */
      margin-left: 2rem;
+} 
+  }
+
+
+/* phone size and below */
+
+@media screen and (max-width: 599px) {
+    .mainbody {
+        background-color: #FBBD08;
+    }
+    #pedro {
+        max-width: 500px !important;
+    }
+
+    #rightbox {
+        /* border-style: dashed; */
+        background-color: white;
+        align-items: center;
+        justify-content: left;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    #menu {   
+        /* border-style:dashed; */
+        margin-left: 2rem;
+   }
 }
