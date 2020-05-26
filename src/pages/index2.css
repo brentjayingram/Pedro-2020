@@ -1,0 +1,16 @@
+.mainbody {
+    display: flex;
+    height: 100vh ;
+    background-color: #FBBD08;
+
+}
+#leftbox {
+    border-style: dotted;
+    flex-grow: 1.4;
+}
+
+#rightbox {
+    border-style: dashed;
+    background-color: white;
+    flex-grow: 1;
+}
