@@ -68,26 +68,24 @@ const IndexPage = ({ data }) => {
 
         </div>
         <div id="rightbox">
-          <div >
-            <div class=" container" style={{display: "flex", justifyContent: "center", flexDirection: "column"}} >
-              <AniLink cover to="/about" bg="#FBBD08">
-                <h2 class="ui header">ABOUT</h2>
-              </AniLink>
-              <br/>
-              <a class="ui header" href="https://www.bravewrk.com/"><h2>BRAVE WRK</h2></a>
-              <br/>
-              <a class="ui header" href="https://www.amazon.com/Middle-Seat-Craving-Platforms-Loving/dp/1483572986"><h2>THE MIDDLE SEAT BOOK</h2></a>
-              <br/>
-              <a class="ui header" href="https://restla.org/"><h2>REST | LA CHURCH</h2></a>
-              <br/>
-              <br/>
-              <AniLink cover to="/contact" bg="#FBBD08">
-                <h2 class="ui header">CONTACT</h2>
-              </AniLink>                
-            </div>
+          
+          <div id="menu"  >
+            <AniLink cover to="/about" bg="#FBBD08">
+              <h2 class="ui header">ABOUT</h2>
+            </AniLink>
+            <br/>
+            <a class="ui header" href="https://www.bravewrk.com/"><h2>BRAVE WRK</h2></a>
+            <br/>
+            <a class="ui header" href="https://www.amazon.com/Middle-Seat-Craving-Platforms-Loving/dp/1483572986"><h2>THE MIDDLE SEAT BOOK</h2></a>
+            <br/>
+            <a class="ui header" href="https://restla.org/"><h2>REST | LA CHURCH</h2></a>
+            <br/>
+            <AniLink cover to="/contact" bg="#FBBD08">
+              <h2 class="ui header">CONTACT</h2>
+            </AniLink>                
           </div>
+          
         </div>
-    
 
   </div>
     )} 

@@ -10,7 +10,15 @@
 }
 
 #rightbox {
+    display: flex;
     border-style: dashed;
     background-color: white;
     flex-grow: 1;
+    align-items: center;
+    justify-content: left;
+}
+
+#menu {   
+     border-style:dashed;
+     margin-left: 2rem;
 }
