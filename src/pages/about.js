@@ -6,7 +6,7 @@ import AniLink from "gatsby-plugin-transition-link/AniLink"
 import SEO from "@components/seo"
 
 const About= () => (
-    <div id="mainbody" style={{  backgroundColor: "#FBBD08", verticalAlign: "middle", paddingBottom: "2rem" }}>
+    <div id="mainbody" style={{  backgroundColor: "#FBBD08", verticalAlign: "middle", paddingBottom: "4rem" }}>
         <div style={{marginLeft: 20}}>
             <AniLink cover to="/" direction="right" bg="#FBBD08">
                 <img class="ui small image"  src={Logo}/>
