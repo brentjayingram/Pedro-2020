@@ -1,0 +1,19 @@
+/* computer */
+@media screen and (min-width: 600px) {
+
+    #mainbody {
+        height: 100vh ;
+        background-color: #FBBD08;
+    }
+}
+/* mobile */
+@media screen and (max-width: 599px) {
+    #mainbody {
+        background-color: #FBBD08;
+        padding-bottom: 4rem;
+       
+    }   
+}
+
+/* style={{  backgroundColor: "#FBBD08", verticalAlign: "middle", paddingBottom: "4rem",  height: "100vh" }} */
+

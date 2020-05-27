@@ -1,12 +1,14 @@
 import React from "react"
 import Logo from "../images/pedro-images/Pedro-Logo.png"
 import AniLink from "gatsby-plugin-transition-link/AniLink"
+import "./about.css"
+
 
 
 import SEO from "@components/seo"
 
 const About= () => (
-    <div id="mainbody" style={{  backgroundColor: "#FBBD08", verticalAlign: "middle", paddingBottom: "4rem" }}>
+    <div id="mainbody">
         <div style={{marginLeft: 20}}>
             <AniLink cover to="/" direction="right" bg="#FBBD08">
                 <img class="ui small image"  src={Logo}/>
