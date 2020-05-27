@@ -35,7 +35,7 @@ const IndexPage = ({ data }) => {
         `}
     render={data => (
   <div class="mainbody" >
-    {/* <Helmet
+    <Helmet
       title={
         title
           ? `${title} - ${data.site.siteMetadata.title}`
@@ -53,7 +53,7 @@ const IndexPage = ({ data }) => {
       ]}
     >
       <html lang="en" />
-    </Helmet> */}
+    </Helmet>
     
 
       {/* Computer size */}
