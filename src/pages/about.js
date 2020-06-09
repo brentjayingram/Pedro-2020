@@ -20,11 +20,8 @@ const About= () => (
                 <div class="column twelve wide">
                     <div class="ui raised segment">
                         <h1>ABOUT PEDRO</h1>
-                        <p style={{textAlign: "left"}}>Art party hot chicken etsy fam trust fund tilde echo park marfa fixie. Venmo green juice art party copper mug next level af flexitarian DIY literally. Tattooed subway tile affogato, venmo selvage literally live-edge roof party street art VHS seitan offal. VHS art party YOLO craft beer kinfolk ugh +1 occupy tattooed irony yuccie. 
-                            <br/><br/> Woke Woke before they sold out neutra, chia selvage gluten-free chillwave shabby chic trust fund paleo vape put a bird on it glossier. Keffiyeh sartorial bushwick hammock live-edge thundercats jean shorts selvage vegan. Brunch ramps iPhone adaptogen slow-carb irony disrupt master cleanse poke tilde neutra vinyl chicharrones listicle.
-                            Subway tile biodiesel cloud bread, echo park chambray truffaut gastropub. Gastropub narwhal XOXO migas poke austin. Cold-pressed gastropub shaman church-key, readymade schlitz paleo. Taiyaki brunch mustache lomo echo park snackwave woke gluten-free skateboard 90's.
-                            <br/><br/> Yr distillery kogi echo park, XOXO YOLO polaroid put a bird on it schlitz hashtag pour-over freegan raw denim next level. Tilde deep v leggings hell of direct trade, activated charcoal photo booth meditation chillwave copper mug paleo bushwick.
-                            Sartorial tumblr tousled dreamcatcher echo park mixtape. 
+                        <p style={{textAlign: "left"}}>Pedro and his bride, Jessica, have one son, named Justice. They live together in Los Angeles, California and wholeheartedly believe in the missional purpose and unification of the church — and with this desire, they’re excited to continue consulting for various creatives and organizations.
+                            
                             <br/>
                             <br/>
                             </p>
